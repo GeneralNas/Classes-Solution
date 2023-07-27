@@ -40,7 +40,7 @@ public class CarDealership {
         this.cars = cars;
     }
 
-    public int getNUmberOfCars () {
+    public int getNumberOfCars () {
         int count = 0;
         for (int i = 0; i < cars.length; i++) {
             if (cars[i] != null) {

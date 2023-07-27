@@ -49,7 +49,7 @@ public class Main {
         vroom.addCar(honda);
         vroom.addCar(benz);
 
-        System.out.println(vroom.getNUmberOfCars());
+        System.out.println(vroom.getNumberOfCars());
         System.out.println(vroom.getMaxNumOfCars());
         System.out.println(Arrays.toString(vroom.getCars()));
         Car car = vroom.findCarByManufacturer("BMW");
